@@ -1,0 +1,927 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1294</width>
+    <height>839</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>ADF – AVALIAÇÃO COMPORTAMENTAL  </string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="4" column="3">
+     <widget class="QPushButton" name="btnCalc">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+        <horstretch>1</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="text">
+       <string>Calcular</string>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="1" alignment="Qt::AlignLeft">
+     <widget class="QLineEdit" name="pontInput">
+      <property name="enabled">
+       <bool>false</bool>
+      </property>
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Ignored" vsizetype="Fixed">
+        <horstretch>2</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: black</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="0" colspan="4">
+     <widget class="QScrollArea" name="scrollArea">
+      <property name="widgetResizable">
+       <bool>true</bool>
+      </property>
+      <widget class="QWidget" name="scrollAreaWidgetContents">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>1260</width>
+         <height>2285</height>
+        </rect>
+       </property>
+       <layout class="QGridLayout" name="gridLayout_2">
+        <item row="20" column="7">
+         <widget class="QCheckBox" name="regua_10">
+          <property name="text">
+           <string>NÃO</string>
+          </property>
+         </widget>
+        </item>
+        <item row="38" column="6">
+         <widget class="QCheckBox" name="checkBox_41">
+          <property name="text">
+           <string>SIM</string>
+          </property>
+         </widget>
+        </item>
+        <item row="40" column="0" colspan="2">
+         <widget class="QLabel" name="label_13">
+          <property name="styleSheet">
+           <string notr="true">font-weight: bold</string>
+          </property>
+          <property name="text">
+           <string>COMPETÊNCIA: Resiliência </string>
+          </property>
+         </widget>
+        </item>
+        <item row="24" column="0" colspan="2">
+         <widget class="QLabel" name="label_10">
+          <property name="styleSheet">
+           <string notr="true">font-weight: bold</string>
+          </property>
+          <property name="text">
+           <string>COMPETÊNCIA: Visão Sistêmica </string>
+          </property>
+         </widget>
+        </item>
+        <item row="31" column="6">
+         <widget class="QCheckBox" name="checkBox_33">
+          <property name="font">
+           <font>
+            <pointsize>10</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>SIM</string>
+          </property>
+         </widget>
+        </item>
+        <item row="11" column="0" colspan="6">
+         <widget class="QPlainTextEdit" name="plainTextEdit_5">
+          <property name="font">
+           <font>
+            <pointsize>13</pointsize>
+           </font>
+          </property>
+          <property name="plainText">
+           <string>5. Considera relevante compreender e conciliar os interesses pessoais em detrimento das questões institucionais.</string>
+          </property>
+         </widget>
+        </item>
+        <item row="22" column="6">
+         <widget class="QCheckBox" name="regua_12">
+          <property name="text">
+           <string>SIM</string>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="5">
+         <widget class="QLineEdit" name="matInput"/>
+        </item>
+        <item row="33" column="0">
+         <widget class="QLabel" name="label_20">
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+        <item row="37" column="7">
+         <widget class="QCheckBox" name="checkBox_40">
+          <property name="text">
+           <string>NÃO</string>
+          </property>
+         </widget>
+        </item>
+        <item row="42" column="7">
+         <widget class="QCheckBox" name="checkBox_46">
+          <property name="text">
+           <string>NÃO</string>
+          </property>
+         </widget>
+        </item>
+        <item row="17" column="6">
+         <widget class="QCheckBox" name="checkBox_17">
+          <property name="text">
+           <string>SIM</string>
+          </property>
+         </widget>
+        </item>
+        <item row="14" column="0" colspan="2">
+         <widget class="QLabel" name="label_8">
+          <property name="styleSheet">
+           <string notr="true">font-weight: bold</string>
+          </property>
+          <property name="text">
+           <string>COMPETÊNCIA: Integridade  </string>
+          </property>
+         </widget>
+        </item>
+        <item row="39" column="0">
+         <widget class="QLabel" name="label_21">
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+        <item row="42" column="6">
+         <widget class="QCheckBox" name="regua_23">
+          <property name="text">
+           <string>SIM</string>
+          </property>
+         </widget>
+        </item>
+        <item row="15" column="7">
+         <widget class="QCheckBox" name="regua_7">
+          <property name="text">
+           <string>NÃO</string>
+          </property>
+         </widget>
+        </item>
+        <item row="43" column="6">
+         <widget class="QCheckBox" name="checkBox_47">
+          <property name="text">
+           <string>SIM</string>
+          </property>
+         </widget>
+        </item>
+        <item row="10" column="7">
+         <widget class="QCheckBox" name="checkBox_7">
+          <property name="text">
+           <string>NÃO</string>
+          </property>
+         </widget>
+        </item>
+        <item row="29" column="0" colspan="3">
+         <widget class="QLabel" name="label_11">
+          <property name="styleSheet">
+           <string notr="true">font-weight: bold</string>
+          </property>
+          <property name="text">
+           <string>COMPETÊNCIA: Eficiência operacional </string>
+          </property>
+         </widget>
+        </item>
+        <item row="38" column="7">
+         <widget class="QCheckBox" name="regua_21">
+          <property name="text">
+           <string>NÃO</string>
+          </property>
+         </widget>
+        </item>
+        <item row="22" column="7">
+         <widget class="QCheckBox" name="checkBox_24">
+          <property name="text">
+           <string>NÃO</string>
+          </property>
+         </widget>
+        </item>
+        <item row="34" column="0" colspan="2">
+         <widget class="QLabel" name="label_12">
+          <property name="styleSheet">
+           <string notr="true">font-weight: bold</string>
+          </property>
+          <property name="text">
+           <string>COMPETÊNCIA: Resiliência </string>
+          </property>
+         </widget>
+        </item>
+        <item row="25" column="6">
+         <widget class="QCheckBox" name="regua_13">
+          <property name="text">
+           <string>SIM</string>
+          </property>
+         </widget>
+        </item>
+        <item row="7" column="7">
+         <widget class="QCheckBox" name="regua_3">
+          <property name="text">
+           <string>NÃO</string>
+          </property>
+         </widget>
+        </item>
+        <item row="30" column="6">
+         <widget class="QCheckBox" name="regua_16">
+          <property name="text">
+           <string>SIM</string>
+          </property>
+         </widget>
+        </item>
+        <item row="15" column="6">
+         <widget class="QCheckBox" name="checkBox_12">
+          <property name="text">
+           <string>SIM</string>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="6" rowspan="3" colspan="2">
+         <widget class="QPushButton" name="btnSave">
+          <property name="text">
+           <string>Salvar</string>
+          </property>
+         </widget>
+        </item>
+        <item row="23" column="0">
+         <widget class="QLabel" name="label_18">
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+        <item row="35" column="6">
+         <widget class="QCheckBox" name="checkBox_35">
+          <property name="text">
+           <string>SIM</string>
+          </property>
+         </widget>
+        </item>
+        <item row="11" column="6">
+         <widget class="QCheckBox" name="checkBox_10">
+          <property name="text">
+           <string>SIM</string>
+          </property>
+         </widget>
+        </item>
+        <item row="27" column="6">
+         <widget class="QCheckBox" name="regua_15">
+          <property name="text">
+           <string>SIM</string>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="4">
+         <widget class="QLabel" name="label">
+          <property name="text">
+           <string>Matrícula:</string>
+          </property>
+         </widget>
+        </item>
+        <item row="35" column="7">
+         <widget class="QCheckBox" name="regua_18">
+          <property name="text">
+           <string>NÃO</string>
+          </property>
+         </widget>
+        </item>
+        <item row="16" column="7">
+         <widget class="QCheckBox" name="checkBox_16">
+          <property name="text">
+           <string>NÃO</string>
+          </property>
+         </widget>
+        </item>
+        <item row="16" column="6">
+         <widget class="QCheckBox" name="regua_8">
+          <property name="text">
+           <string>SIM</string>
+          </property>
+         </widget>
+        </item>
+        <item row="26" column="0" colspan="6">
+         <widget class="QPlainTextEdit" name="plainTextEdit_14">
+          <property name="font">
+           <font>
+            <pointsize>13</pointsize>
+           </font>
+          </property>
+          <property name="plainText">
+           <string>14. Conhece as ações e iniciativas estratégicas, mas considera irrelevante a aplicação em sua rotina de trabalho.
+</string>
+          </property>
+         </widget>
+        </item>
+        <item row="43" column="0" colspan="6">
+         <widget class="QPlainTextEdit" name="plainTextEdit_24">
+          <property name="font">
+           <font>
+            <pointsize>13</pointsize>
+           </font>
+          </property>
+          <property name="plainText">
+           <string>24. Utiliza seus conhecimentos para resolver os problemas que lhe são apresentados, sem compartilhar suas habilidades com seus colegas de equipes.</string>
+          </property>
+         </widget>
+        </item>
+        <item row="19" column="0" colspan="3">
+         <widget class="QLabel" name="label_9">
+          <property name="styleSheet">
+           <string notr="true">font-weight: bold</string>
+          </property>
+          <property name="text">
+           <string>COMPETÊNCIA: Relação Interpessoal  </string>
+          </property>
+         </widget>
+        </item>
+        <item row="5" column="0" colspan="6">
+         <widget class="QPlainTextEdit" name="plainTextEdit">
+          <property name="font">
+           <font>
+            <pointsize>13</pointsize>
+           </font>
+          </property>
+          <property name="plainText">
+           <string>1. Conhece as diretrizes estratégicas da Cooperativa e considera que a implementação dessas sejam fundamentais para o alcance dos objetivos e metas estabelecidos.
+</string>
+          </property>
+         </widget>
+        </item>
+        <item row="37" column="6">
+         <widget class="QCheckBox" name="regua_20">
+          <property name="text">
+           <string>SIM</string>
+          </property>
+         </widget>
+        </item>
+        <item row="36" column="7">
+         <widget class="QCheckBox" name="checkBox_38">
+          <property name="text">
+           <string>NÃO</string>
+          </property>
+         </widget>
+        </item>
+        <item row="11" column="7">
+         <widget class="QCheckBox" name="regua_5">
+          <property name="text">
+           <string>NÃO</string>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="1" colspan="3">
+         <widget class="QLineEdit" name="nameInput"/>
+        </item>
+        <item row="13" column="0">
+         <widget class="QLabel" name="label_16">
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+        <item row="43" column="7">
+         <widget class="QCheckBox" name="regua_24">
+          <property name="text">
+           <string>NÃO</string>
+          </property>
+         </widget>
+        </item>
+        <item row="10" column="6">
+         <widget class="QCheckBox" name="regua_4">
+          <property name="text">
+           <string>SIM</string>
+          </property>
+         </widget>
+        </item>
+        <item row="25" column="7">
+         <widget class="QCheckBox" name="checkBox_26">
+          <property name="text">
+           <string>NÃO</string>
+          </property>
+         </widget>
+        </item>
+        <item row="6" column="0" colspan="6">
+         <widget class="QPlainTextEdit" name="plainTextEdit_2">
+          <property name="font">
+           <font>
+            <pointsize>13</pointsize>
+           </font>
+          </property>
+          <property name="plainText">
+           <string>2. Entende que o cumprimento da jornada de trabalho seja um padrão pouco relevante.
+</string>
+          </property>
+         </widget>
+        </item>
+        <item row="38" column="0" colspan="6">
+         <widget class="QPlainTextEdit" name="plainTextEdit_21">
+          <property name="font">
+           <font>
+            <pointsize>13</pointsize>
+           </font>
+          </property>
+          <property name="plainText">
+           <string>21. Demonstra pouca capacidade de lidar com situações adversas e tenta fazer prevalecer suas vontades e seus conhecimentos para enfrentar mudanças.</string>
+          </property>
+         </widget>
+        </item>
+        <item row="26" column="6">
+         <widget class="QCheckBox" name="checkBox_27">
+          <property name="text">
+           <string>SIM</string>
+          </property>
+         </widget>
+        </item>
+        <item row="31" column="0" colspan="6">
+         <widget class="QPlainTextEdit" name="plainTextEdit_17">
+          <property name="font">
+           <font>
+            <pointsize>13</pointsize>
+           </font>
+          </property>
+          <property name="plainText">
+           <string>17. Considera o cumprimento do orçamento e prazos estipulados para as tarefas desnecessários, quando estes dependem exclusivamente de sua atuação.</string>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="0">
+         <widget class="QLabel" name="label_2">
+          <property name="text">
+           <string>Nome:</string>
+          </property>
+         </widget>
+        </item>
+        <item row="42" column="0" colspan="6">
+         <widget class="QPlainTextEdit" name="plainTextEdit_23">
+          <property name="font">
+           <font>
+            <pointsize>13</pointsize>
+           </font>
+          </property>
+          <property name="plainText">
+           <string>23. Busca aprimorar sua comunicação verbal e escrita para transmitir seu pensamento de forma clara e objetiva.</string>
+          </property>
+         </widget>
+        </item>
+        <item row="9" column="0" colspan="3">
+         <widget class="QLabel" name="label_7">
+          <property name="styleSheet">
+           <string notr="true">font-weight: bold</string>
+          </property>
+          <property name="text">
+           <string>COMPETÊNCIA: Administração de conflitos  </string>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="0" rowspan="2">
+         <widget class="QLabel" name="label_3">
+          <property name="text">
+           <string>Cargo:</string>
+          </property>
+         </widget>
+        </item>
+        <item row="2" column="3">
+         <widget class="QLineEdit" name="areaInput"/>
+        </item>
+        <item row="5" column="7">
+         <widget class="QCheckBox" name="checkBox_2">
+          <property name="text">
+           <string>NÃO</string>
+          </property>
+         </widget>
+        </item>
+        <item row="41" column="0" colspan="6">
+         <widget class="QPlainTextEdit" name="plainTextEdit_22">
+          <property name="font">
+           <font>
+            <pointsize>13</pointsize>
+           </font>
+          </property>
+          <property name="plainText">
+           <string>22. Assume a responsabilidade por seu processo evolutivo por meio da busca pessoal por recursos e condições que lhe permitam desenvolver-se e atingir novos patamares pessoal e profissional.</string>
+          </property>
+         </widget>
+        </item>
+        <item row="6" column="7">
+         <widget class="QCheckBox" name="regua_2">
+          <property name="text">
+           <string>NÃO</string>
+          </property>
+         </widget>
+        </item>
+        <item row="27" column="0" colspan="6">
+         <widget class="QPlainTextEdit" name="plainTextEdit_15">
+          <property name="font">
+           <font>
+            <pointsize>13</pointsize>
+           </font>
+          </property>
+          <property name="plainText">
+           <string>15. Realiza análises dos problemas identificados com profundidade e apresenta propostas consistentes de soluções para eliminar a causa raiz.</string>
+          </property>
+         </widget>
+        </item>
+        <item row="8" column="0" colspan="5">
+         <widget class="QLabel" name="label_14">
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+        <item row="7" column="0" colspan="6">
+         <widget class="QPlainTextEdit" name="plainTextEdit_3">
+          <property name="font">
+           <font>
+            <pointsize>13</pointsize>
+           </font>
+          </property>
+          <property name="plainText">
+           <string>3. Considera a preservação da qualidade do clima organizacional como fator mais importante do que os esforços para solução de problemas e desenvolvimento dos negócios.</string>
+          </property>
+         </widget>
+        </item>
+        <item row="15" column="0" colspan="6">
+         <widget class="QPlainTextEdit" name="plainTextEdit_7">
+          <property name="font">
+           <font>
+            <pointsize>13</pointsize>
+           </font>
+          </property>
+          <property name="plainText">
+           <string>7. Trabalha sempre buscando o melhor para si em detrimento das necessidades requeridas e da colaboração com a equipe.</string>
+          </property>
+         </widget>
+        </item>
+        <item row="28" column="0">
+         <widget class="QLabel" name="label_19">
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+        <item row="10" column="0" colspan="6">
+         <widget class="QPlainTextEdit" name="plainTextEdit_4">
+          <property name="font">
+           <font>
+            <pointsize>13</pointsize>
+           </font>
+          </property>
+          <property name="plainText">
+           <string>4. Procura compreender a origem dos problemas antes de tomar a iniciativa de solução.</string>
+          </property>
+         </widget>
+        </item>
+        <item row="17" column="0" colspan="6">
+         <widget class="QPlainTextEdit" name="plainTextEdit_9">
+          <property name="font">
+           <font>
+            <pointsize>13</pointsize>
+           </font>
+          </property>
+          <property name="plainText">
+           <string>9. Conhece integralmente o Programa de Integridade, mas não o considera relevante no desenvolvimento das atividades do dia-a-dia.</string>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="5" rowspan="2">
+         <widget class="QLineEdit" name="gerenInput"/>
+        </item>
+        <item row="5" column="6">
+         <widget class="QCheckBox" name="regua_1">
+          <property name="font">
+           <font>
+            <pointsize>10</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>SIM</string>
+          </property>
+         </widget>
+        </item>
+        <item row="25" column="0" colspan="6">
+         <widget class="QPlainTextEdit" name="plainTextEdit_13">
+          <property name="font">
+           <font>
+            <pointsize>13</pointsize>
+           </font>
+          </property>
+          <property name="plainText">
+           <string>13. Compreende a interrelação dos processos da área em que atua e seus impactos no desenvolvimento dos negócios da Cooperativa.</string>
+          </property>
+         </widget>
+        </item>
+        <item row="7" column="6">
+         <widget class="QCheckBox" name="checkBox_6">
+          <property name="text">
+           <string>SIM</string>
+          </property>
+         </widget>
+        </item>
+        <item row="30" column="0" colspan="6">
+         <widget class="QPlainTextEdit" name="plainTextEdit_16">
+          <property name="font">
+           <font>
+            <pointsize>13</pointsize>
+           </font>
+          </property>
+          <property name="plainText">
+           <string>16. Desenvolve suas atividades considerando as variáveis de risco, rentabilidade e controle como elementos fundamentais para subsidiar as decisões.	</string>
+          </property>
+         </widget>
+        </item>
+        <item row="27" column="7">
+         <widget class="QCheckBox" name="checkBox_30">
+          <property name="text">
+           <string>NÃO</string>
+          </property>
+         </widget>
+        </item>
+        <item row="12" column="0" colspan="6">
+         <widget class="QPlainTextEdit" name="plainTextEdit_6">
+          <property name="font">
+           <font>
+            <pointsize>13</pointsize>
+           </font>
+          </property>
+          <property name="plainText">
+           <string>6. Busca a conciliação e a mediação para superar divergências, sem levar em conta as disposições legais e regulamentares.</string>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="1" rowspan="2">
+         <widget class="QLineEdit" name="cargoInput"/>
+        </item>
+        <item row="31" column="7">
+         <widget class="QCheckBox" name="regua_17">
+          <property name="text">
+           <string>NÃO</string>
+          </property>
+         </widget>
+        </item>
+        <item row="3" column="0" colspan="5">
+         <widget class="QLabel" name="label_15">
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+        <item row="20" column="6">
+         <widget class="QCheckBox" name="checkBox_19">
+          <property name="text">
+           <string>SIM</string>
+          </property>
+         </widget>
+        </item>
+        <item row="17" column="7">
+         <widget class="QCheckBox" name="regua_9">
+          <property name="text">
+           <string>NÃO</string>
+          </property>
+         </widget>
+        </item>
+        <item row="18" column="0">
+         <widget class="QLabel" name="label_17">
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+        <item row="4" column="0" colspan="2">
+         <widget class="QLabel" name="label_6">
+          <property name="styleSheet">
+           <string notr="true">font-weight: bold</string>
+          </property>
+          <property name="text">
+           <string>COMPETÊNCIA: Engajamento  </string>
+          </property>
+         </widget>
+        </item>
+        <item row="20" column="0" colspan="6">
+         <widget class="QPlainTextEdit" name="plainTextEdit_10">
+          <property name="font">
+           <font>
+            <pointsize>13</pointsize>
+           </font>
+          </property>
+          <property name="plainText">
+           <string>10. Utiliza bem o networking para seu crescimento pessoal e profissional, sem levar em conta os objetivos e necessidades da área ou das iniciativas estratégicas.</string>
+          </property>
+         </widget>
+        </item>
+        <item row="36" column="0" colspan="6">
+         <widget class="QPlainTextEdit" name="plainTextEdit_19">
+          <property name="font">
+           <font>
+            <pointsize>13</pointsize>
+           </font>
+          </property>
+          <property name="plainText">
+           <string>19. Demonstra capacidade para lidar com problemas e adaptar-se a mudanças, buscando meios para resolver os desafios que lhe são apresentados.</string>
+          </property>
+         </widget>
+        </item>
+        <item row="21" column="0" colspan="6">
+         <widget class="QPlainTextEdit" name="plainTextEdit_11">
+          <property name="font">
+           <font>
+            <pointsize>13</pointsize>
+           </font>
+          </property>
+          <property name="plainText">
+           <string>11. Inspira e motiva positivamente as pessoas com as quais se relaciona, compartilhando ideias novas e soluções inovadoras para solucionar problemas.</string>
+          </property>
+         </widget>
+        </item>
+        <item row="26" column="7">
+         <widget class="QCheckBox" name="regua_14">
+          <property name="text">
+           <string>NÃO</string>
+          </property>
+         </widget>
+        </item>
+        <item row="22" column="0" colspan="6">
+         <widget class="QPlainTextEdit" name="plainTextEdit_12">
+          <property name="font">
+           <font>
+            <pointsize>13</pointsize>
+           </font>
+          </property>
+          <property name="plainText">
+           <string>12. Trata bem e respeita todos os profissionais da empresa, independentemente de cargo, raça, religião e diferenças pessoais, respeitando a diversidade existente no ambiente de trabalho.</string>
+          </property>
+         </widget>
+        </item>
+        <item row="36" column="6">
+         <widget class="QCheckBox" name="regua_19">
+          <property name="text">
+           <string>SIM</string>
+          </property>
+         </widget>
+        </item>
+        <item row="41" column="7">
+         <widget class="QCheckBox" name="checkBox_44">
+          <property name="text">
+           <string>NÃO</string>
+          </property>
+         </widget>
+        </item>
+        <item row="12" column="7">
+         <widget class="QCheckBox" name="regua_6">
+          <property name="text">
+           <string>NÃO</string>
+          </property>
+         </widget>
+        </item>
+        <item row="6" column="6">
+         <widget class="QCheckBox" name="checkBox_4">
+          <property name="text">
+           <string>SIM</string>
+          </property>
+         </widget>
+        </item>
+        <item row="21" column="7">
+         <widget class="QCheckBox" name="checkBox_22">
+          <property name="text">
+           <string>NÃO</string>
+          </property>
+         </widget>
+        </item>
+        <item row="2" column="4">
+         <widget class="QLabel" name="label_5">
+          <property name="text">
+           <string>Gerência</string>
+          </property>
+         </widget>
+        </item>
+        <item row="16" column="0" colspan="6">
+         <widget class="QPlainTextEdit" name="plainTextEdit_8">
+          <property name="font">
+           <font>
+            <pointsize>13</pointsize>
+           </font>
+          </property>
+          <property name="plainText">
+           <string>8. Colabora com seus pares na identificação das causas dos problemas e participa da construção da solução observando sempre os princípios cooperativistas, éticos e organizacionais.</string>
+          </property>
+         </widget>
+        </item>
+        <item row="37" column="0" colspan="6">
+         <widget class="QPlainTextEdit" name="plainTextEdit_20">
+          <property name="font">
+           <font>
+            <pointsize>13</pointsize>
+           </font>
+          </property>
+          <property name="plainText">
+           <string>20. Transforma as experiências negativas em lições aprendidas para evitar a repetição de falhas nas atividades desenvolvidas.</string>
+          </property>
+         </widget>
+        </item>
+        <item row="12" column="6">
+         <widget class="QCheckBox" name="checkBox_14">
+          <property name="text">
+           <string>SIM</string>
+          </property>
+         </widget>
+        </item>
+        <item row="30" column="7">
+         <widget class="QCheckBox" name="checkBox_32">
+          <property name="text">
+           <string>NÃO</string>
+          </property>
+         </widget>
+        </item>
+        <item row="21" column="6">
+         <widget class="QCheckBox" name="regua_11">
+          <property name="text">
+           <string>SIM</string>
+          </property>
+         </widget>
+        </item>
+        <item row="2" column="2">
+         <widget class="QLabel" name="label_4">
+          <property name="text">
+           <string>Àrea:</string>
+          </property>
+         </widget>
+        </item>
+        <item row="41" column="6">
+         <widget class="QCheckBox" name="regua_22">
+          <property name="text">
+           <string>SIM</string>
+          </property>
+         </widget>
+        </item>
+        <item row="32" column="0" colspan="6">
+         <widget class="QPlainTextEdit" name="plainTextEdit_18">
+          <property name="font">
+           <font>
+            <pointsize>13</pointsize>
+           </font>
+          </property>
+          <property name="plainText">
+           <string>18. Propõe soluções sem levar em conta fatos e dados referentes ao negócio que está sendo desenvolvido.</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </item>
+    <item row="4" column="0" alignment="Qt::AlignLeft">
+     <widget class="QLabel" name="label_22">
+      <property name="text">
+       <string>Pontuação:</string>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="2">
+     <widget class="QLabel" name="statusLabel">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+        <horstretch>2</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
